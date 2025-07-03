@@ -84,10 +84,13 @@ Open browser and visit: `http://127.0.0.1:5000`
 
 ## 📸 Screenshots
 
-| Input Page                       | Output Recommendation Page        |
-| -------------------------------- | --------------------------------- |
-![image](https://github.com/user-attachments/assets/c34bed4d-f536-4b50-9a12-900e6509d3e8)    ![image](https://github.com/user-attachments/assets/ce22f338-4922-4f53-a03c-6bbd26f93a11)
+| Input Page                       |
+|--------------------------------- |
+![image](https://github.com/user-attachments/assets/c34bed4d-f536-4b50-9a12-900e6509d3e8)  
 
+|   Output Recommendation Page     |
+| -------------------------------- |
+![image](https://github.com/user-attachments/assets/ce22f338-4922-4f53-a03c-6bbd26f93a11)
 
 
 ## 📤 Deployment
