@@ -106,5 +106,5 @@ You can deploy this Flask app on platforms like:
 
 **Vinay L R**  
 📧 Email: [vinaylrvinaylr54@gmail.com](mailto:vinaylrvinaylr54@gmail.com)  
-🔗 GitHub: [@VinayLR16](https://github.com/VinayLR16)
+🔗 GitHub: [@VinayLR15](https://github.com/VinayLR15)
 
