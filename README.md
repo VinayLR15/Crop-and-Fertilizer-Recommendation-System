@@ -1,4 +1,3 @@
-![Screenshot 2025-07-03 171119](https://github.com/user-attachments/assets/ad8f8dd0-afb0-4326-a172-58358615733b)
 # 🌾 Crop and Fertilizer Recommendation System
 A Machine Learning-based web application that recommends the most suitable crop and fertilizers based on soil and environmental conditions such as Nitrogen, Phosphorus, Potassium, Temperature, Humidity, pH level, and Rainfall.
 
@@ -14,19 +13,22 @@ A Machine Learning-based web application that recommends the most suitable crop 
 
 ## 📂 Project Structure
 Crop-and-Fertilizer-Recommendation-System/
-├── app.py                      # Flask main application
-├── Crop\_recommendation.csv    # Dataset for crop recommendation
-├── ferti.csv                  # Dataset for fertilizer mapping
-├── crop\_model.pkl             # Trained ML model for crop prediction
-├── crop\_encoder.pkl           # Label encoder for crop classes
-├── static/                    # Static images and background
+├── app.py                   # Flask main application
+├── Crop_recommendation.csv # Dataset for crop recommendation
+├── ferti.csv                # Dataset for fertilizer mapping
+├── crop_model.pkl           # Trained ML model for crop prediction
+├── crop_encoder.pkl         # Label encoder for crop classes
+│
+├── static/                  # Static images and backgrounds
 │   ├── background3.jpg
 │   ├── blacktree.png
 │   ├── call4.png
 │   ├── colortree.png
-├── templates/                 # HTML pages
-│   ├── crop.html              # Input form
-│   ├── cropresult.html        # Result display
+│
+├── templates/               # HTML pages
+│   ├── crop.html            # Input form for user data
+│   ├── cropresult.html      # Result display with recommended crop and fertilizer
+
 
 
 ## 🛠️ Setup Instructions
