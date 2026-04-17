@@ -1,7 +1,7 @@
-setuptools>=65.0.0
-wheel
-Flask==2.3.3
-gunicorn==21.2.0
-numpy==1.24.3
-pandas==2.0.0
-scikit-learn==1.3.1
+setuptools>=70.0.0        # ✅ Added (required for Python 3.14)
+wheel>=0.40.0             # ✅ Added (enables prebuilt wheels)
+Flask==2.3.3              # (unchanged)
+gunicorn==21.2.0          # (unchanged)
+numpy>=1.26.0             # ⬆️ Upgraded from 1.24.3
+pandas>=2.1.0             # ⬆️ Upgraded from 2.0.0
+scikit-learn>=1.3.2       # ⬆️ Upgraded from 1.3.1
