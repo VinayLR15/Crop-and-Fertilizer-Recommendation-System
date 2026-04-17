@@ -5,6 +5,7 @@ from flask import Flask, request, render_template
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
+import os
 
 app = Flask(__name__)
 
@@ -93,4 +94,6 @@ def predict():
         return f"<pre>An error occurred:\n{traceback.format_exc()}</pre>"
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    # Production-ready port handling
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=False)
